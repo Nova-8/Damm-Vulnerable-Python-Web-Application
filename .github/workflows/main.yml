@@ -14,7 +14,7 @@ jobs:
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
           project_name: Teste Github Actions
-          cx_tenant: https://deu.ast.checkmarx.net
-          base_uri: https://deu.iam.ast.checkmarx.net
+          cx_tenant: beta-nova8-canary
+          base_uri: https://deu.ast.checkmarx.net
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
