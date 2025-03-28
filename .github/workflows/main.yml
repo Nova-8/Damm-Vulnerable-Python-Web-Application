@@ -14,7 +14,7 @@ jobs:
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
           project_name: Teste Github Actions
-          cx_tenant: <Checkmarx One Tenant Account>
-          base_uri: <Checkmarx One Base uri> 
+          cx_tenant: https://deu.ast.checkmarx.net
+          base_uri: https://deu.iam.ast.checkmarx.net
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
